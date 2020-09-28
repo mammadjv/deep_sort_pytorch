@@ -181,7 +181,7 @@ def main():
         train_loss, train_err = train(epoch)
         test_loss, test_err = test(epoch)
         draw_curve(epoch, train_loss, train_err, test_loss, test_err)
-        if (epoch+1)%20==0:
+        if (epoch+1)%5==0:
             lr_decay()
 
 
