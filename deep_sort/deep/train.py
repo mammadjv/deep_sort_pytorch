@@ -131,7 +131,7 @@ def test(epoch):
 
     # saving checkpoint
     acc = 100.*correct/total
-    if acc > best_acc:
+    if 2 > 1:
         best_acc = acc
         print("Saving parameters to checkpoint/ckpt.t7")
         checkpoint = {
